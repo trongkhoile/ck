@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="vukhi.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="menu">
+    <div class="leftMenu">
+        <a href="trangchu.html" id="riotLogo" onclick='riotGamesSwitcher()'>
+        </a>
+        <div onclick='riotGamesSwitcher()' id='triangle'></div>
+        <span id="seperator"></span>
+        <a href='trangchu.html' target="_blank">
+            <img id="valorantLogo" src='191883239_792595314957635_1076710433014799324_n.jpg'>
+        </a>
+    </div>
+
+    <div class="midMenu">
+        <a href="#" id="box1" onmouseover="subBoxes1()" onmouseout="nonSubBoxes1()">
+            THÔNG TIN TRÒ CHƠI
+            <div id="triangle1"></div>
+        </a>
+
+        <a id="box2" href="truyenthong.html" >
+            TRUYỀN THÔNG
+        </a>
+
+        <a href="tintuc.html" id="box3" >
+            TIN TỨC
+        </a>
+
+        <div id="box4" onmouseover="subBoxes4()" onmouseout="nonSubBoxes4()">
+            HỖ TRỢ
+            <div id="triangle3"></div>
+        </div>
+
+        <div id="box5" onmouseover="subBoxes5()" onmouseout="nonSubBoxes5()">
+            THÊM
+            <div id="triangle4"></div>
+        </div>
+    </div>
+
+    <div class="rightMenu">
+
+    </div>
+<div id="subBoxes1" onmouseover="subBoxes1()" onmouseout="nonSubBoxes1()">
+    <a class="subBox1" href="chonnv.html" >
+        ĐIỆP VIÊN
+    </a>
+    <a class="subBox1" href="bando.html" >
+        BẢN ĐỒ
+    </a>
+    <a class="subBox1" href="vukhi.html" >
+        KHO VŨ KHÍ
+    </a>
+</div>
+<div id="subBoxes4" onmouseover="subBoxes4()" onmouseout="nonSubBoxes4()">
+    <a href='thongso.html'  class="subBox4">THÔNG SỐ</a>
+    <a  href="hotro.html" class="subBox4">HỖ TRỢ</a>
+    <a href="quychuancongdong.html" class="subBox4">QUY CHUẨN CỘNG ĐỒNG</a>
+</div>
+<div id="subBoxes5" onmouseover="subBoxes5()" onmouseout="nonSubBoxes5()">
+    <a href="#" class="subBox5" id="subBox5.1" onmouseover="subSubBoxes5()" onmouseout="nonSubSubBoxes5()">
+        MẠNG XÃ HỘI
+        <div id="triangle5"></div>
+    </a>
+    <a href="thethaodientu.html" class="subBox5">
+        THỂ THAO ĐIỆN TỬ
+    </a>
+</div>
+<div id="subSubBoxes5" onmouseover="subSubBoxes5()" onmouseout="nonSubSubBoxes5()">
+    <a href="https://www.facebook.com/VALORANTvn/" class="subSubBox5"  onmouseover="keep()">
+        FACEBOOK
+    </a>
+    <a href="https://www.youtube.com/PlayValorant" class="subSubBox5" onmouseover="keep()">
+        YOUTUBE
+    </a>
+    <a href="https://www.instagram.com/valorantvn" class="subSubBox5" onmouseover="keep()">
+        INSTAGRAM
+    </a>
+</div> 
+</div>
+<!--thanhmenu-->
+<div id="fadein">
+    <h1 id="tieude">CHỌN VŨ KHÍ CỦA BẠN</h1>
+    <div id="sung">
+      <a href="#khungto" id="sung1"><h3>SÚNG PHỤ</h3> </a>
+      <hr>
+      <a href="#khungto1" id="sung1"> <h3>SMG</h3></a>
+      <hr>
+      <a href="#khungto2" id="sung1"><h3>SÚNG SĂN</h3> </a>
+      <hr>
+      <a href="#khungto3" id="sung1"><h3>SÚNG TRƯỜNG</h3> </a>
+      <hr>
+      <a href="#khungto4" id="sung1"><h3>SÚNG NGẮM</h3> </a>
+      <hr>
+      <a href="#khungto5" id="sung1"><h3>HẠNG NẶNG</h3> </a>
+      <hr>
+      <a href="#khungto6" id="sung1"><h3>CẬN CHIẾN</h3> </a>
+    </div>
+    
+    <div id="khungcucto">
+    <div id="khungto">
+        <h1 class="t">SÚNG PHỤ</h1>
+        <div>
+          <div class="sungphu">
+        
+            <div class="ten">
+            <h1 >CLASSIC.</h1>
+            <img src="Classic.png">
+            <p>Nhẹ và linh hoạt , đây là vũ khí mặc định cho mọi trường hợp</p>
+            <div class="khung">
+            <h1>CLASSIC.</h1>
+            <h3>LOẠI // SÚNG PHỤ</h3>
+            <h3>Chế độ chính bắn ra những phát đạn chính xác khi đứng yên, đi kèm với chế độ bắn siêu tốc dành cho các cuộc chạm trán tầm gần.</h3>
+            </div>
+            </div>
+           
+           
+           
+            <div class="ten">
+            <h1 >SHORTY.</h1>
+            <img class="anh" src="Shorty (1).png">
+            <p>Khiến kẻ thù bất ngờ cực độ để mang lại hiệu quả tối đa</p>
+            <div class="khung">
+            <h1>SHORTY.</h1>
+            <h3>LOẠI // SÚNG PHỤ</h3>
+            <h3>Một khẩu súng nòng ngắn linh hoạt cực kỳ lợi hại ở cự ly gần, nhưng chỉ có thể bắn hai phát trước khi cần nạp đạn. Có thể kết hợp tốt với các vũ khí tầm xa.</h3>
+            </div>
+            </div>
+            
+          </div>
+          <div class="sungphu">
+        
+            <div class="ten">
+            <h1 > FRENZY.</h1>
+            <img src="Frenzy.png">
+            <p>Đến gần, giữ cò súng. Còn từ xa ư hãy tìm cách khác vậy...</p>
+            <div class="khung1">
+            <h1>FRENZY.</h1>
+            <h3>LOẠI // SÚNG PHỤ</h3>
+            <h3>Súng lục liên thanh hạng nhẹ cực đỉnh để vừa bắn vừa di chuyển. Có thể hơi khó kiểm soát do tốc độ bắn quá nhanh, vì vậy hãy thử xả đạn ở tầm trung nhé.</h3>
+            </div>
+            </div>
+           
+           
+           
+            <div class="ten">
+            <h1 >GHOST.</h1>
+            <img class="anh" src="Ghost.png">
+            <p>Kiểu dáng đẹp có giảm thanh và hữu ích ở mọi tầm bắn</p>
+            <div class="khung1">
+            <h1>GHOST.</h1>
+            <h3>LOẠI // SÚNG PHỤ</h3>
+            <h3>Ghost có độ chuẩn xác cao, kèm theo băng đạn cỡ lớn nếu bạn có chẳng may bắn trượt. Đối với mục tiêu ở xa đòi hỏi phải kiểm soát tốc độ bắn. Hãy bóp cò ngay khi bạn ngắm trúng mục tiêu nhé.</h3>
+            </div>
+            </div>
+            
+          </div>
+          <div class="ten">
+            <h1 >SHERIFF.</h1>
+            <img class="anh2" src="Sheriff.png">
+            <p>Headshot Machine (1 viên vào đầu là đủ để tiễn bạn về trời)</p>
+            <div class="khung2">
+            <h1>SHERIFF.</h1>
+            <h3>LOẠI // SÚNG PHỤ</h3>
+            <h3>Vòng xoay dễ cảm nhận của súng gây giật khá lớn và đòi hỏi phải thực sự thành thạo.
+
+                Sử dụng Sheriff đúng cách và tiễn đối thủ của bạn tới gặp tử thần.</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="khungto1">
+      <h1 class="t1">SMG</h1>
+      <div class="smg">
+       <div class="ten">
+        <h1 > STINGER.</h1>
+        <img id="anh3" src="Stinger.png">
+        <p>Một khẩu Stinger giật trúng đích thì thôi rồi lượm ơi </p>
+        <div class="khung3">
+        <h1>STINGER.</h1>
+        <h3>LOẠI // SMG</h3>
+        <h3>Khẩu SMG này mạnh hơn ở tầm trung đến tầm xa so với các loại súng SMG khác, nhưng điểm yếu lại nằm ở tốc độ bắn và tính cơ động.
+
+          Băng đạn 20 viên sẽ dễ trở nên lãng phí vì độ giật khi bắn, nhưng có thể chí mạng ở tầm trung với ống ngắm ADS khi kiểm soát được cách bắn.</h3>
+        </div>
+       </div>
+       <div class="ten">
+        <h1 > SPECTRE.</h1>
+        <img id="anh3" src="Spectre.png">
+        <p>Không biết chọn súng nào, Spectre là lựa chọn số một của bạn</p>
+        <div class="khung3">
+        <h1>SPECTRE.</h1>
+        <h3>LOẠI // SMG</h3>
+        <h3>Một vũ khí đa năng có lực sát thương, tốc độ bắn và độ chính xác cao ở tầm gần và tầm trung.
+
+          Với khẩu súng này, bạn sẽ dễ dàng hạ gục đối thủ ở mọi ngóc ngách của bản đồ, và thậm chí có thể hạ gục kẻ thù ở khoảng cách xa nếu có kỹ năng ngắm ổn định.</h3>
+        </div>
+       </div>
+      </div>
+       
+    </div>
+    <div id="khungto2">
+          <h1 class="t">SÚNG SĂN</h1>
+          <div class="sungsan">
+            <div class="ten">
+              <h1 > BUCKY.</h1>
+              <img id="anh4" src="Bucky.png">
+              <p>Khẩu súng này chắc chắn sẽ không làm bạn thất vọng </p>
+              <div class="khung4">
+              <h1>BUCKY.</h1>
+              <h3>LOẠI // SÚNG SĂN</h3>
+              <h3>Nặng nhưng ổn định, chế độ bắn chính của Bucky chủ yếu sử dụng cho các góc hẹp hoặc dùng khi giáp lá cà. Chế độ bắn phụ dành cho các mục tiêu ở tầm trung.</h3>
+              </div>
+              </div>
+              <div class="ten">
+                <h1 > JUDGE.</h1>
+                <img id="anh4" src="Judge.png">
+                <p>Súng săn tự động, bắn cực nhanh, sát thương cao</p>
+                <div class="khung4">
+                <h1>JUDGE.</h1>
+                <h3>LOẠI // SÚNG SĂN</h3>
+                <h3>Khẩu Judge khá ổn định khi đứng yên, nhưng khi bắn nhanh sẽ trở nên bất ổn.
+
+                  Chế độ bắn chính sẽ bắn nát mục tiêu ở tầm gần. Tuy nhiên để bắn trúng được mục tiêu cách xa hơn một chút, bạn sẽ cần có kỹ năng ngắm bắn khá chắc tay đấy.</h3>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div id="khungto3">
+      <h1 class="t">SÚNG TRƯỜNG</h1>
+      <div class="sungtruong">
+        <div class="ten">
+          <h1 > BULLDOG.</h1>
+          <img id="anh5" src="Bulldog.png">
+          <p>Đôi khi hạnh phúc chỉ đơn giản là hạ gục kẻ thù bằng 1 khẩu Bulldog </p>
+          <div class="khung5">
+          <h1>BULLDOG.</h1>
+          <h3>LOẠI // SÚNG TRƯỜNG</h3>
+          <h3>Một quái thú thực sự với chế độ bắn phụ dùng ngắm ADS và khạc từng loạt đạn chính xác vào bất cứ kẻ nào trong phạm vi từ tầm trung đến tầm xa.</h3>
+          </div>
+          </div>
+          <div class="ten">
+            <h1 > GUARDIAN.</h1>
+            <img class="anh6" src="Guardian.png">
+            <p>Tỏa sáng trong tay một xạ thủ kiên nhẫn</p>
+            <div class="khung5">
+            <h1>GUARDIAN.</h1>
+            <h3>LOẠI // SÚNG TRƯỜNG</h3>
+            <h3>Súng trường dành cho những tay thiện xạ đích thực. Nặng hơn và ít cơ động hơn so với các loại súng trường khác nhưng cực kỳ chính xác và uy lực. Dùng để săn các đối thủ ở khoảng cách trung bình đến xa.</h3>
+            </div>
+        </div>
+      </div>
+   </div>
+   <div id="khungto4">
+    <h1 class="t">SÚNG NGẮM</h1>
+    <div class="sungngam">
+      <div class="ten">
+        <h1  >MARSHAL.</h1>
+        <img class="anh6" src="Marshal.png">
+        <p>Nín thở bóp cò và đối thủ sẽ phải nuối tiếc khi quay sang góc đó </p>
+        <div class="khung6">
+        <h1>MARSHAL.</h1>
+        <h3>LOẠI // SÚNG NGẮM</h3>
+        <h3>Súng trường bắn tỉa lên đạn có độ cơ động cao với ống ngắm một chế độ. Kẻ thù sẽ không dám giỡn mặt khi bạn cầm trong tay khẩu súng này. Tuy nhiên tốc độ bắn chậm đồng nghĩa với việc bạn phải bắn chính xác nếu không muốn bị úp sọt.</h3>
+        </div>
+        </div>
+        <div class="ten">
+          <h1 > OPERATOR.</h1>
+          <img class="anh6" src="Operator.png">
+          <p>Dễ dàng chiếm cứ điểm quan trọng với Operator</p>
+          <div class="khung6">
+          <h1>OPERATOR.</h1>
+          <h3>LOẠI // SÚNG NGẮM</h3>
+          <h3>Súng trường bắn tỉa nạp đạn bán tự động mạnh mẽ với ống ngắm hai chế độ. Không thật sự linh hoạt nhưng vô cùng uy lực, có thể tiêu diệt nhiều mục tiêu chỉ bằng một phát bắn xuyên táo.</h3>
+          </div>
+      </div>
+    </div>
+   </div>
+   <div id="khungto5">
+    <h1 class="t">HẠNG NẶNG</h1>
+    <div class="hangnang">
+      <div class="ten">
+        <h1  >ARES.</h1>
+        <img class="anh6" src="Ares.png">
+        <p>Hãy chú ý kích cỡ này nhé </p>
+        <div class="khung7">
+        <h1>ARES.</h1>
+        <h3>LOẠI // HẠNG NẶNG</h3>
+        <h3>Băng đạn lớn của khẩu Ares cũng có nghĩa là bạn sẽ vượt trội về hỏa lực để đàn áp hoặc gây sát thương lớn cho đối thủ.</h3>
+        </div>
+        </div>
+        <div class="ten">
+          <h1 > ODIN.</h1>
+          <img class="anh6" src="Odin.png">
+          <p>Mang đến vinh quang cho người sở hữu và sự diệt vong của kẻ thù </p>
+          <div class="khung7">
+          <h1>ODIN.</h1>
+          <h3>LOẠI // HẠNG NẶNG</h3>
+          <h3>Gây sát thương cao với sự ổn định đáng ngạc nhiên. Thổi bay kẻ địch ở tầm gần và chế độ bắn phụ sẽ khiến bạn trở thành tháp pháo sống.</h3>
+          </div>
+      </div>
+    </div>
+   </div>
+   <div id="khungto6">
+     <h1 class="t">CẬN CHIẾN</h1>
+    <div class="ten">
+      <h1  >DAO GĂM TÁC CHIẾN.</h1>
+      <img class="anh6" src="TacticalKnife.png">
+      <p>Dành cho những ai có đam mê chim chuột đối thủ</p>
+      <div class="khung8">
+      <h1>ARES.</h1>
+      <h3>LOẠI // CẬN CHIẾN</h3>
+      <h3>Khi bạn phân vân hoặc đơn giản là hết đạn, hãy hạ đối thủ bằng thứ vũ khí này. Dao găm cho phép bạn di chuyển cực kỳ cơ động, phá hủy vật cản nhanh hơn, hoặc hạ gục kẻ thù chỉ bằng một "xiên" từ sau lưng bằng chế độ phụ.</h3>
+      </div>
+      </div>
+   </div>
+  </div>
+  </div>
+  <script src="./vukhi.js"></script>
+</body>
+</html>

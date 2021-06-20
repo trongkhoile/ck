@@ -1,0 +1,525 @@
+body{
+    font-family:Neue Frutiger World, Tahoma, sans-serif;  
+    background-color: #efede3;
+}
+.map{
+    display: flex;
+    width: 100px;
+    border-radius: 100px;
+    background-color: #FA5858;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 40px;
+    
+   
+    
+
+}
+#khungmap{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    animation: bay 1s ;
+    
+}
+#tieude{
+    font-size: 80px;
+    margin-left: 200px;
+    animation: bay 1s;
+}
+#map1{
+    
+    width: 700px ;
+    margin-left: 200px;
+    margin-top: 50px;
+    border:1px solid  ;
+    animation: bay1 1s;
+}
+#giaithich{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-color:#088A68 ;
+    top: 65%;
+    margin-left: 850px;
+    border: 1px solid;
+    animation: bay1 1s;
+    
+}
+
+@keyframes hien{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+a:hover{
+    animation: len 2s;
+}
+@keyframes len{
+    25%{transform:translateY(-20px);}
+}
+@keyframes bay{
+    25%{opacity: 0;transform: translateX(0px);}
+    50%{opacity: 1;transform: translateX(-30px);}
+}
+@keyframes bay1{
+    25%{opacity: 0;transform: translateX(0px);}
+    50%{opacity: 1;transform: translateX(-30px);}
+}
+#chu{
+    margin-left: 50px;
+    width: 250px;
+    font-size: 17px;
+}
+#bando{
+    margin-left: 50px;
+}
+#map2{
+    width: 700px ;
+    margin-left: 350px;
+    margin-top: 50px;
+    border:1px solid  ;
+    animation: bay1 1s;
+}
+#giaithich1{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-color:#088A68 ;
+    top: 115%;
+    margin-left: 60px;
+    border: 1px solid;
+    animation: bay1 1s;
+    margin-top: -10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#khungto{
+    margin-top: 100px;
+}
+/*thanhmenu*/
+.menu{
+
+    transform: translateX(-8px);
+    height: 90px;
+    width: 1550px;
+    background-color: #111111;
+    color: #F9F9F9;
+    border-bottom: 2px solid #191B16;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+ }
+ 
+ #riotLogo {
+    width: 160px; 
+    height: 160px;
+    background-image:url('https://lolstatic-a.akamaihd.net/riotbar/live/1.1.5/images/navigation/fistsprite.png');
+    transform: scale(0.33);
+    position: absolute;
+    top: -55px;
+    left: -55px;
+  
+    margin-top: 25px;
+    margin-left: 40px;
+    background-position-x: 0px;
+    background-position-y: -2400px;
+    transition: background-position 0.25s steps(15, end);
+    
+ } 
+ 
+ #riotLogo:hover{
+    background-position-x: 0px;
+    background-position-y: 0px;
+    transition: background-position 0.25s steps(15, end);
+ }
+ 
+ #triangle{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+     border-top: 5px solid #7E7E7E;
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    cursor: pointer;
+ }
+ 
+ #triangle:hover{
+    border-top: 5px solid #F9F9F9;
+ }
+ 
+ #seperator{
+    border-left: 2px solid #7E7E7E;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    margin-left: 110px;
+    margin-right: 32px;
+    margin-top: 30px;
+ }
+ 
+ #valorantLogo{
+    background-image: url("191883239_792595314957635_1076710433014799324_n.jpg");
+    display: inline-block;
+    height: 30px; 
+    width: 35px;
+    /* margin-left: 110px;
+    margin-right: 32px;
+    margin-top: 30px; */
+ }
+ 
+ .midMenu, .leftMenu, .rightMenu{
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+ }
+ 
+ #box1{
+    width: 176px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    line-height: 80px;
+    height: 80px;
+    margin-top: -52px;
+    margin-left: 40px;
+    position: absolute;
+    top: 56px;
+    border-bottom: 2px solid transparent;
+    /* border: 1px solid yellow; */
+    cursor: default;
+    font-weight: bold;
+    text-decoration: none;color: #F9F9F9;
+ }
+ 
+ /* #box1:hover{
+    border-bottom: 2px solid #FF4655;
+ } */
+ 
+ #triangle1{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+     border-top: 5px solid #7E7E7E;
+    position: absolute;
+    top: 43px;
+    left: 175px;
+ }
+ 
+ #subBoxes1{
+    display: none;
+    width: 136px;
+    margin-top: 19px;
+    position: absolute;
+    z-index: 1;
+    /* display: block; */
+ }
+ 
+ .subBox1{
+    background-color: #111111;
+    color: #F9F9F9;
+    width: 136px;
+    display: block;
+    padding: 12px 32px;
+    /* border: 1px solid yellow; */
+    /* line-height: 10px; */
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    margin-left: 229px;  
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+ }
+ 
+ .subBox1:hover{
+    background-color: #333333;
+ }
+ 
+ /* a{
+    text-decoration: none;
+    color: #f9f9f9;
+    width: 136px;
+ } */
+ 
+ #triangle2{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+     border-top: 5px solid #7E7E7E;
+    position: absolute;
+    top: 43px;
+    left: 175px;
+ }
+ 
+ #box2{
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    line-height: 80px;
+    height: 80px;
+    margin-top: -52px;
+    margin-left: 260px;
+    position: absolute;
+    top: 56px;
+    border-bottom: 2px solid transparent;
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: bold;
+ }
+ 
+ #box2:hover{
+    border-bottom: 2px solid #FF4655;
+ }
+ 
+ #box3{
+    width: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    line-height: 80px;
+    height: 80px;
+    margin-top: -52px;
+    margin-left: 415px;
+    position: absolute;
+    top: 56px;
+    border-bottom: 2px solid transparent;
+    /* border: 1px solid yellow; */
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: bold;
+ }
+ 
+ #box3:hover{
+    border-bottom: 2px solid #FF4655;
+ }
+ 
+ #box4{
+    width: 75px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    line-height: 80px;
+    height: 80px;
+    margin-top: -52px;
+    margin-left: 515px;
+    position: absolute;
+    top: 56px;
+    border-bottom: 2px solid transparent;
+    /* border: 1px solid yellow; */
+    cursor: default;
+    font-weight: bold;
+ }
+ 
+ #box4:hover{
+    border-bottom: 2px solid #FF4655;
+ }
+ 
+ #triangle3{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+     border-top: 5px solid #7E7E7E;
+    position: absolute;
+    top: 43px;
+    left: 75px;
+ }
+ 
+ #subBoxes4{
+    display: none;
+    width: 136px;
+    margin-top: 19px;
+    position: absolute;
+    z-index: 1;
+    /* display: block; */
+ }
+ 
+ .subBox4{
+    background-color: #111111;
+    color: #F9F9F9;
+    width: 136px;
+    display: block;
+    padding: 12px 32px;
+    /* border: 1px solid yellow; */
+    /* line-height: 10px; */
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    margin-left: 689px;  
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+ }
+ 
+ .subBox4:hover{
+    background-color: #333333;
+ }
+ 
+ #box5{
+    width: 60px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 4px;
+    line-height: 80px;
+    height: 80px;
+    margin-top: -52px;
+    margin-left: 630px;
+    position: absolute;
+    top: 56px;
+    border-bottom: 2px solid transparent;
+    /* border: 1px solid yellow; */
+    cursor: default;
+    font-weight: bold;
+ }
+ 
+ #box5:hover{
+    border-bottom: 2px solid #FF4655;
+ }
+ 
+ #triangle4{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+     border-top: 5px solid #7E7E7E;
+    position: absolute;
+    top: 43px;
+    left: 60px;
+ }
+ 
+ #subBoxes5{
+    display: none;
+    width: 136px;
+    margin-top: 19px;
+    /* display: block; */
+    position: absolute;
+    z-index: 1;
+ }
+ 
+ .subBox5{
+    background-color: #111111;
+    color: #F9F9F9;
+    width: 136px;
+    display: block;
+    padding: 12px 32px;
+    /* border: 1px solid yellow; */
+    /* line-height: 10px; */
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    margin-left: 819px;  
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+ }
+ 
+ .subBox5:hover{
+    background-color: #333333;
+ }
+ 
+ #triangle5{
+    width:0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+     border-top: 5px solid #7E7E7E;
+    display: inline-block;
+    /* position: absolute;
+    top: 43px;
+    left: 60px; */
+ }
+ 
+ #subSubBoxes5{
+    display: none;
+    width: 136px;
+    /* display: block; */
+    margin-top: 19px;
+    position: absolute;
+    z-index: 1;
+ }
+ 
+ .subSubBox5{
+    background-color: #111111;
+    color: #F9F9F9;
+    width: 136px;
+    display: block;
+    padding: 12px 32px;
+    /* border: 1px solid yellow; */
+    /* line-height: 10px; */
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    margin-left: 1019px;  
+    text-decoration: none;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+ }
+ 
+ .subSubBox5:hover{
+    background-color: #333333;
+ }
+ 
+ #triangle6{
+    width: 0px;
+    display: block;
+    /* display: none;*/
+    margin-top: -34px;
+    margin-left: 20px;  
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+     border-bottom: 10px solid #F9F9F9;
+ }
+ 
+ .switchWrapper{
+    padding: 24px;
+    background-color: #008000;
+    /*#F9F9F9;*/
+    /* display: none; */
+    width: 1232px;
+ }
+ 
+ #headline{
+    padding: 24px;
+    /* margin: 0px 16px; */
+    height: 10px;
+    font-size: 24px;
+    font-weight: 950;
+    font-family: "FF Mark W05", sans-serif;
+    display: inline-block;
+ }
+ 
+ #headline a{
+    cursor: pointer;
+ }
+ 
+ #goToRiotGames{
+    display: inline-block;
+    font-family: "Neue Frutiger World", Tahoma, sans-serif;
+    margin-left: 850px;
+ }
+ 
+ #goToRiotGames a{
+    color: #111111;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 20px;
+    padding: 6px 12px;
+    border-radius: 4px;  
+    font-size: 11px;
+    height: 24px;
+    vertical-align: middle;
+ }
+ 
+ #goToRiotGames a:hover{
+    background-color: #EAEAEA;
+ }
+ 
+ #x{
+    vertical-align: middle;
+ }
+ 
+ #bd:hover{
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+ }

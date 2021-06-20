@@ -1,0 +1,122 @@
+.khung1{
+    
+    width: 1200px;
+    height: 675px;
+    transform: translateX(10%);
+}
+#khung2{
+    width: 300px;
+}
+.nhanvat1{
+    position: absolute;
+    top: 20%;
+    transform: translateX(280%);
+    color: #23221d;
+    
+}
+body{
+    background-color:#efede3;
+    color: #23221d;
+    font-family:Neue Frutiger World, Tahoma, sans-serif; 
+}
+h1{
+    margin-bottom: 100px;
+    color: #23221d;
+    transform: translateX(30%);
+}
+#nutbam{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-image: url("VALORANT_ tựa game bắn súng chiến thuật cạnh tranh 5 đấu 5 lấy các nhân vật làm nền tảng từ Riot Games - Google Chrome 6_2_2021 7_49_06 AM (2).png");
+    justify-content: center;
+    align-items: center;
+    border-style: groove;
+   
+}
+#giaithich1{
+    width: 300px;
+}
+a:hover{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #FA5858;
+    color: white;
+}
+#anh{
+   margin-top: 4%;
+   transform: translateX(-5%);
+    
+    
+}
+#khung3{
+    transform: translateX(10%);
+    margin-top: 20%;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-in {
+    animation: fade-in 0.8s;
+}
+#nutbam1{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-image: url("VALORANT_ tựa game bắn súng chiến thuật cạnh tranh 5 đấu 5 lấy các nhân vật làm nền tảng từ Riot Games - Google Chrome 6_2_2021 7_49_06 AM (2).png");
+    justify-content: center;
+    align-items: center;
+   
+}
+#khung4{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#khung10{
+    display: flex;
+    border-style: groove;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-direction: row;
+}
+#video{
+    border-style: groove;
+    margin-left: 700px;
+    width: 500px;
+    height: 300px;
+    transform: translateY(-100%);
+}
+#kinang1 , #giaithich1{
+    animation: transitionIn 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes transitionIn{
+   0%{color: #FA5858;}
+   25%{color: #23221d;}
+    
+}
+#chu{
+  transform: translateX(40%);
+}
+#khungnho{
+    position: absolute;
+    width: 750px;
+    background-color: #FA5858;
+    transform: translateX(-20%);
+}
